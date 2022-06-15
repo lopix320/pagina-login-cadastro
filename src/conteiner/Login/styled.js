@@ -10,6 +10,8 @@ export const Conteiner = styled.div`
   height: 500px;
   width: 500px;
   background-color: #00000026;
+  box-shadow: 0px 2px 10px -1px black;
+  border-radius: 30px;
 `;
 
 export const InputPanel = styled.div`

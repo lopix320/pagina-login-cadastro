@@ -6,6 +6,19 @@ import useLogin from "../hooks/uselogin";
 import { setEmail, setPassword, setLogado } from "../contexts/duck/action";
 import { VALID_LOGINS, VALID_TOKEN } from "../constants/index";
 
+let styleIndex = {
+  borderRadius: "5px",
+  border: "none",
+  outline: "none",
+  boxShadow: "0px 1px 2px -1px black",
+  width: "200px",
+};
+let styleBtn = {
+  borderRadius: "2px",
+  border: "1px solid",
+  boxShadow: "0px 1px 2px -1px black",
+};
+
 const Form = () => {
   const [state, dispatch] = useLogin();
   const { email, password } = VALID_LOGINS;
@@ -25,6 +38,7 @@ const Form = () => {
         <label for="email">Email:</label>
         <br />
         <Input
+          style={styleIndex}
           disabled={state.logado}
           value={state.email}
           onChange={(event) => dispatch(setEmail(event.target.value))}
@@ -36,6 +50,7 @@ const Form = () => {
         <label for="senha">Senha:</label>
         <br />
         <Input
+          style={styleIndex}
           disabled={state.logado}
           value={state.password}
           onChange={(event) => dispatch(setPassword(event.target.value))}
@@ -44,10 +59,11 @@ const Form = () => {
         />
         <br />
         <br />
-        <Button>Login</Button>
+        <Button style={styleBtn}>Login</Button>
       </form>
       <br />
       <Button
+        style={styleBtn}
         onClick={() => {
           window.alert("Deslogado!");
           window.localStorage.removeItem("token");

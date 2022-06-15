@@ -14,12 +14,11 @@ const Login = () => {
       window.alert("Você já esta logado!");
     }
   }, []);
-  const color = "green";
   return (
     <S.LoginWrapper>
       <S.Conteiner>
         <S.InputPanel>
-          <h1 style={{ marginLeft: "20px" }}>Login</h1>
+          <h1 style={{ marginLeft: "45px" }}>Login</h1>
           <Form />
         </S.InputPanel>
       </S.Conteiner>
