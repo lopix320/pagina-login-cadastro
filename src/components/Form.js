@@ -4,7 +4,7 @@ import Input from "./Input";
 import { LoginContext, LoginDispatch } from "../contexts/context";
 import useLogin from "../hooks/uselogin";
 import { setEmail, setPassword, setLogado } from "../contexts/duck/action";
-import { VALID_LOGINS, VALID_TOKEN } from "../constantes/index";
+import { VALID_LOGINS, VALID_TOKEN } from "../constants/index";
 
 let styleIndex = {
   borderRadius: "5px",
