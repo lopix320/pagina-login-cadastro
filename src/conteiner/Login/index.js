@@ -2,7 +2,7 @@ import React from "react";
 import { setLogado } from "../../contexts/duck/action";
 import * as S from "./styled";
 import Form from "../../components/Form";
-import { VALID_TOKEN } from "../../constants";
+import { VALID_TOKEN } from "../../constantes";
 import useLogin from "../../hooks/uselogin";
 
 const Login = () => {
