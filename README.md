@@ -6,8 +6,8 @@ Projeto pagina-login foi criado com intuito de realizar um exercicio que me foi 
 
 OBS: Logar com este usuario:
 
-Email: gabriel@gmail.com
-Senha: 0208
+Email: `gabriel@gmail.com`
+Senha: `0208`
 
 ## Criar o app
 
