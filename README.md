@@ -4,6 +4,11 @@
 
 Projeto pagina-login foi criado com intuito de realizar um exercicio que me foi passado para medir meu nível com ReactJS para um processo seletivo
 
+OBS: Logar com este usuario:
+
+##Email: gabriel@gmail.com
+##Senha: 0208
+
 ## Criar o app
 
 Para criar um app na sua maquina, use:
