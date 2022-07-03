@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto pagina-login foi criado com intuito de realizar um exercicio que me foi passado para medir meu nível com ReactJS para um processo seletivo
+Neste projeto foi criado uma página de login e uma de registro, com uma simulação de base de dados
 
 OBS: Logar com este usuario:
 
